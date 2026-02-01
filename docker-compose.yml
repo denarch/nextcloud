@@ -1,0 +1,15 @@
+version: "3"
+services:
+  filestash:
+    image: machines/filestash:latest
+    container_name: filestash
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8334:8334"
+    volumes:
+      - filestash_data:/app/data
+
+volumes:
+  filestash_data:
