@@ -6,8 +6,9 @@ Google Drive-like web interface for your Cloudflare R2 storage. Connects to the 
 
 ## Quick links (Synology + Cloudflare Tunnel)
 
-1. [Установка Filestash на Synology](docs/SYNOLOGY-SETUP.md)
-2. [Настройка Cloudflare Tunnel](docs/CLOUDFLARE-TUNNEL.md)
+1. [Что делать сейчас — чеклист](docs/QUICK-START.md)
+2. [Установка Filestash на Synology](docs/SYNOLOGY-SETUP.md)
+3. [Настройка Cloudflare Tunnel](docs/CLOUDFLARE-TUNNEL.md)
 
 ## Architecture
 
